@@ -126,7 +126,7 @@ to {opacity: 1; top:-20%}
 #section03 p:last-child{border: 2px solid #444444;width: 130px; padding:10px 25px;text-align: left;
     position: relative;left:45%;transition: 0.5s ease;}
 #section03 p:last-child:hover{border: 2px solid #F9B02B; border-radius:15px;}
-#section03 p:last-child a img{width: 20%;margin-left:30px;}
+#section03 p:last-child a img{width: 20%;margin-left:35px;}
 #section03 p:last-child a{width: 100%;}
 
 
@@ -134,8 +134,43 @@ to {opacity: 1; top:-20%}
 #section04 h2{color : #FD8203;font-size: 3rem;margin-bottom:25px;}
 #section04 h3{font-size:1.2rem;margin-bottom: 50px;}
 #section04 p:nth-child(3){border: 2px solid #444444;width: 130px; padding:10px 25px;text-align: left;
-    position: relative;left:45%;transition: 0.5s ease;margin-bottom: 100px;}
-#section04 p:last-child:hover{border: 2px solid #F9B02B; border-radius:15px;}
-#section04 p:nth-child(3) a img{width: 20%;margin-left:30px;}
-#section04 p:nth-child(3) a{width: 100%;}
-#section04 img{max-width: 100%;}
+    position: relative;left:45%;transition: ease;margin-bottom: 80px;}
+#section04 p:nth-child(3):hover{border: 2px solid #F9B02B; border-radius:15px;}
+#section04 p:nth-child(3) a img{width: 20%;margin-left:50px;}
+#section04  p:nth-child(3) a{width:100%;}
+#section04 .sec03_img{background:url(../image/map01.png) no-repeat ;max-width:1250px;height: 700px;animation:  map 5s infinite; transition: ease; background-size: cover;margin: 0 auto;}
+@keyframes map{
+	0%{background:url(../image/map01.png) no-repeat}
+	50%{background:url(../image/map.png) no-repeat}
+	90%{background:url(../image/map01.png) no-repeat}
+	100%{background:url(../image/map01.png) no-repeat}
+
+}
+
+#section05{text-align: center;background: url(../image/bule_bar.png) no-repeat; color: #fff;background-size: cover;margin-bottom: 100px;}
+#section05 > div{padding-bottom: 50px;}
+#section05 h2{color:#fff;font-size: 3rem;margin-bottom:30px;padding-top:80px}
+#section05 p:nth-child(2){font-size: 1.3rem;margin-bottom:30px}
+#section05 p:nth-child(3){border: 2px solid #fff;width:230px; padding:10px 25px;text-align: left;
+    position: relative;left:43%;transition: 0.5s ease;}
+#section05 p:nth-child(3):hover{border: 2px solid #F9B02B; border-radius:15px;background:#F9B02B}
+#section05 p:nth-child(3) a img{width: 20%;margin-left:50px;}
+#section05  p:nth-child(3) a{width: 100%;}
+
+
+#footer .frist  > ul li:nth-child(1){font-weight: 700;font-size: 1.1rem;}
+#footer .frist {display: flex;justify-content: right;margin-right:50px; border-bottom:2px solid #999;padding-bottom: 50px;margin-left: 100px;position: relative;top:-70px;}
+
+
+#footer  p{width:250px;left:6%;position: relative;}
+#footer  p img{width: 100%;}
+#footer .frist > ul{width:200px;line-height: 2rem;margin-right:80px;}
+#footer .frist >  ul li{font-size: 0.8rem;}
+#footer{margin-bottom: 100px;}
+#footer .big_div{position: relative;top:50%}
+#footer .small_div{position: relative;left:5%}
+#footer .small_div .selcet{width: 307px; 
+	height:50px; line-height: 87px; border: none; 
+	 font-size: 18px; 
+	font-weight: bold;position: absolute;transition: 3s ease;}
+	#footer  .small_div .selcet:active{top:-300px}
