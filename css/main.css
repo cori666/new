@@ -167,10 +167,11 @@ to {opacity: 1; top:-20%}
 #footer .frist > ul{width:200px;line-height: 2rem;margin-right:80px;}
 #footer .frist >  ul li{font-size: 0.8rem;}
 #footer{margin-bottom: 100px;}
-#footer .big_div{position: relative;top:50%}
-#footer .small_div{position: relative;left:5%}
-#footer .small_div .selcet{width: 307px; 
+#footer .big_div{position: relative}
+#footer .small_div{position: absolute;}
+#footer .selcet{width: 307px; 
 	height:50px; line-height: 87px; border: none; 
 	 font-size: 18px; 
 	font-weight: bold;position: absolute;transition: 3s ease;}
-	#footer  .small_div .selcet:active{top:-300px}
+
+	#footer .selcet:active .smail_div{top:-300px}
