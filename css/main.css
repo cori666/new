@@ -144,7 +144,7 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 
 }
 
-#section05{text-align: center;background: url(../image/bule_bar.png) no-repeat; color: #fff;background-size: cover;margin-bottom: 100px;}
+#section05{text-align: center;background: url(../image/bule_bar.png) no-repeat; color: #fff;background-size: cover;margin-bottom: 100px; }
 #section05 > div{padding-bottom: 50px;}
 #section05 h2{color:#fff;font-size: 3rem;margin-bottom:30px;padding-top:80px}
 #section05 p:nth-child(2){font-size: 1.3rem;margin-bottom:30px}
