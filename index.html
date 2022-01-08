@@ -12,12 +12,14 @@
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <script src="js/jquery.js">  </script>
 <script src="js/jquery.fadethis.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <body>
    <header id="header">
 		<div class="inner">
 		  <h1  class="logo">
-			  <a href="#"><img src="image/logo.png" alt="logo"></a>
+			  <a href="index.html"><img src="image/logo.png" alt="logo"></a>
 		 </h1>
 		 <ul class="nav">
 			 <li class="fri_li"><a href="#">메뉴</a>
@@ -49,7 +51,7 @@
 			 </li>
 			<li  class="fif_li"><a href="#">교촌스토리</a>
 					 <ul class="small_ul">
-						 <li><a href="#">교촌스토리</a></li>
+						 <li><a href="sub/index.html">교촌스토리</a></li>
 						 <li><a href="#">CEO 인사말</a></li>
 						 <li><a href="#">PR센터</a></li>
 						 <li><a href="#">공지사항</a></li>  
@@ -68,14 +70,16 @@
 </section>
 
 
-<section id="section02" class="slide-top" >
+<section id="section02">
 <h2>교촌만의 오리지널 메뉴</h2>
 <h3>GATLIC SOY</h3>
 <p>Specail Sauce Recipe from Fresh Garilc & soy</p>
 <p>신성한 갈릭이 들어간<br>
 갈릭소이 소스로 <span>전통</span>을 바르다.</p>
-<p ><img src="image/one01.png" alt="one"></p>
-<p><img src="image/one02.png" alt="one"></p>
+<p  data-aos="fade-down"   data-aos-duration="3000">
+	<img src="image/one01.png" alt="one"></p>
+<p  data-aos="fade-up"   data-aos-duration="3000">
+	<img src="image/one02.png" alt="one"></p>
 </section></div>
 <section id="section03">
    <h2>입이 즐거워 지는 시간</h2>
@@ -89,14 +93,18 @@
 </section>
 
 
-<section id="section04">
+<section id="section04" data-aos="zoom-in" 
+data-aos-easing="ease-out-cubic"
+data-aos-duration="2000">
    <h2>해외로 뻗어가는 교촌</h2>
    <h3>국내뿐만 아니라 해외 15개국 54개의 매장에서 만나보세요.</h3>
    <p><a href="#">더보기<img src="image/go.png" alt="go"></a></p>
    <p class="sec03_img"></p>
 </section>
 
-<section id="section05" class="slide-left">
+<section id="section05" data-aos="zoom-in" 
+data-aos-easing="ease-out-cubic"
+data-aos-duration="1000">
 	<div>
 <h2>창업?! 어렵지 않습니다.<br>교촌의 미래의 사장님들과 함께 하겠습니다.</h2>
 <p>인테리어 와 시장조사등 걱정 하지마세요~!<br>처음부터 매장오픈 후관리 까지! 교촌이 평생 책임 지겠습니다.</p>
@@ -126,15 +134,17 @@
 <li><a href="">영상정보 처리기기운영 관리 방침</a></li></ul>
 </div>
 <div class="foot_bottom">
-<div class="big_div"> 
-	<select title="FFAMIILY SITE" class="selcet"> 
-		<option value="0">FFAMIILY SITE</option>
-		<option value="교촌 F&B">교촌 F&B</option> 
-		<option value="GLOBAL 교촌">GLOBAL 교촌</option> 
-		<option value="교촌 JAPAN">교촌 JAPAN</option>
-		 <option value="교촌  USA">교촌  USA</option> 
-		 <option value="교촌 CHINA">교촌 CHINA</option>
-		 <option value="교촌 EUROPE">교촌 EUROPE</option> </select></div>
+<ul class="selcet"> 
+	<li><a href="#">Family Site &nbsp &nbsp &nbsp &nbsp &nbsp +</a>
+		<ul class="small_sel">
+	<li><a href="#">교촌 F&B</a></li>
+	<li><a href="#">GLOBAL 교촌</a></li>
+	<li><a href="#">교촌 JAPAN</a></li>
+	<li><a href="#">교촌  USA</a></li>
+	<li><a href="#">교촌 CHINA</a></li>
+	<li><a href="#">교촌 EUROPE</a></li>
+</ul></li></ul>
+
 <div class="foot_text">
 <p>사업장소재지 : 39852 경상북도 칠곡군 가산면 송신로 78
 	<br>본사(오산교육원)주소 : 18150 경기도 오산시 동부대로 436번길 55-18
@@ -153,5 +163,8 @@
 
 
 </body>
-<script>$(window).fadeThis();</script>
+<script src="dist/aos.js"></script>
+<script>
+  if (!window.Cypress) AOS.init();
+</script>
 </html>

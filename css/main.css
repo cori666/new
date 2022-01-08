@@ -26,6 +26,10 @@ margin-bottom:150px;}
 #header .nav .small_ul> li a{width: 100%;}
 #header .nav .small_ul> li:hover{background: #fd8204;color:#fff}
 
+.fif_li > a:nth-child(1){font-weight: 700;color:#fd8204}
+.fif_li  .small_ul .story{font-weight: 700;}
+.fif_li .small_ul{font-weight: 400;}
+
  #header .nav ul{padding: 0px 0px; 
     line-height: 1.5em; overflow: hidden; opacity: 0;  transition: 0.8s ease;
 	transform:translate(-50%,0);
@@ -66,7 +70,7 @@ margin-bottom:150px;}
 0%{opacity: 0;padding-top:150px}
 100% {opacity: 1; padding-top:0}}*/
 #section02   p:nth-child(6){position:relative;left:2%;max-width: 300px;
-	margin-top:-200px;transition: ease-in;}
+	margin-top:-200px;}
 #section02   p:nth-child(6) img{width:100%;}
 
 
@@ -163,11 +167,16 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 #footer  > p img{width: 100%;}
 #footer .frist > ul{width:200px;line-height: 2rem;margin-right:80px;}
 #footer .frist >  ul li{font-size: 0.8rem;}
-#footer{margin-bottom: 120px;}
-#footer .big_div{position: relative;left:5%;width: 500px;margin:0}
-#footer .selcet{width: 307px; 
-	height:50px; border: none; 
-	 font-size: 18px; font-weight: bold;}
-	 #footer .foot_bottom{display: flex;}
-	 .foot_text p{position: absolute;right:7%;font-size: 0.7rem;line-height:25px;}
-	.foot_text{position: relative;width: 100%;}
+#footer{margin-bottom: 200px;}
+#footer .foot_bottom{display: flex;}
+.foot_text p{position: absolute;right:7%;font-size: 0.7rem;line-height:25px;}
+.foot_text{position: relative;width: 100%;}
+#footer .selcet{width: 200px;font-weight: 700;/*border-bottom: 2px solid #333;*/
+		border-top: 2px solid #333;padding:10px 0;margin-left: 100px;position:relative;transition: all ease;}
+#footer .selcet ul{
+    line-height: 1.5em; overflow: hidden; transition: all 1s ease;
+	width: 100%;position: absolute;top:50px;opacity: 0;}
+#footer .selcet > li:hover ul{display: block;top:-170px;transition: all 1s ease;background:#fff;opacity: 1;}
+#footer .selcet > li{z-index: 1;}
+#footer .selcet > li ul{z-index: 999999;}
+#footer .selcet > li ul li:hover{color:#F9B02B;}
