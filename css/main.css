@@ -180,3 +180,8 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 #footer .selcet > li{z-index: 1;}
 #footer .selcet > li ul{z-index: 999999;}
 #footer .selcet > li ul li:hover{color:#F9B02B;}
+
+
+.top{position:fixed;right:50px;bottom:50px;z-index:9999;
+    width:60px;height:55px;background:#fff;border: 1px solid rgb(167, 167, 167); transition: all ease;}
+    .top img{width: 20px;height: 20px;transform:rotate(-90deg);margin-top:-10px}
