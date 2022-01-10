@@ -79,6 +79,7 @@ padding-bottom:150px;}
 
 #footer{background:#FFFBF1;height:520px;padding-top: 50px;}
 #footer .foot_bottom{display: flex;margin-top:-50px}
+#footer .frist  > ul> li:hover{text-decoration: underline;}
 .foot_text p{position: absolute;right:7%;font-size: 0.7rem;line-height:25px;}
 .foot_text{width: 800px;}
 #footer .selcet{width: 200px;font-weight: 700;border-bottom: 2px solid #333;
