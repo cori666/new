@@ -235,7 +235,7 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 
 #footer{margin-bottom: 200px;position: relative;}
 #footer .frist  > ul li:nth-child(1){font-weight: 700;font-size: 1.1rem;}
-#footer .frist {display: flex;justify-content: right;margin-right:50px; border-bottom:2px solid #999;padding-bottom: 50px;margin-left: 100px;position: relative;top:-70px;}
+#footer .frist {display: flex;justify-content: right;border-bottom:2px solid #999;padding-bottom: 50px;position: relative;top:-70px;}
 #footer  > p{max-width:250px;left:6%;position: relative;}
 #footer  > p img{width: 100%;}
 #footer .frist > ul{width:200px;line-height: 2rem;margin-right:80px;}
@@ -295,3 +295,8 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
     width:60px;height:55px;background:#fff;border: 1px solid rgb(167, 167, 167); transition: all ease;}
     .top img{width: 20px;height: 20px;transform:rotate(-90deg);margin-top:-10px}
 
+
+    @media screen and (max-width:749px){
+		.top{right: 10px;}
+	  
+		  }
