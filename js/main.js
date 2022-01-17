@@ -6,16 +6,16 @@
     
             $("html,body").stop().animate({scrollTop:0});
             });//menu.click() 끝
-    
+   
             var a = 1 ;//alert(a)
-            $('.btn').click(function(){
+            $('.link_btn').click(function(){
                if (a == 1) {
                    $(this).addClass('on');
-                   $('.box').fadeIn();
+                   $('.small_sel_box').fadeIn();
                    a = 2;
                } else {
                    $(this).removeClass('on'); 
-                   $('.box').fadeOut();
+                   $('.small_sel_box').fadeOut();
                    a = 1;
                }
             })         

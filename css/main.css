@@ -174,12 +174,12 @@ margin-bottom:150px;}
 
 
 
-#section03 p:last-child{border: 2px solid #444444;width: 130px; padding:10px 25px;text-align: left;
-    position: relative;left:45%;transition: 0.5s ease;}
-#section03 p:last-child:hover{border: 2px solid #F9B02B; border-radius:15px;}
-#section03 p:last-child a img{width: 20%;margin-left:35px;}
-#section03 p:last-child a{width: 100%;}
-
+	#section03 .big_go02{border: 2px solid #444444;width: 130px; padding:10px 25px;text-align: left;
+		position: relative;left:45%;transition: 0.5s ease;}
+	#section03 .big_go02:hover{border: 2px solid #F9B02B; border-radius:15px;background:#F9B02B;color: #fff;font-weight: 700;}
+	#section03 .gogo03{background: url(../image/go.png) no-repeat; width: 25px;height: 25px;background-size: cover; position: absolute; right:10%;z-index: 99999;top:25%}
+	#section03 .big_go02:hover .gogo03{background: url(../image/go.png) no-repeat; width: 25px;height: 25px;background-size: cover; transition: all 1s ease;}
+	
 
 
 	@media screen and (max-width: 750px){
@@ -197,17 +197,18 @@ margin-bottom:150px;}
 #section04 h2{color : #FD8203;font-size: 3rem;margin-bottom:25px;}
 #section04 h3{font-size:1.2rem;margin-bottom: 50px;}
 #section04 p:nth-child(3){border: 2px solid #444444;width: 130px; padding:10px 25px;text-align: left;
-position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
+position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}/*
 #section04 p:nth-child(3):hover{border: 2px solid #F9B02B; border-radius:15px;}
 #section04 p:nth-child(3) a img{width: 20%;margin-left:50px;}
 #section04  p:nth-child(3) a{width:100%;}
 #section04 .sec03_img{max-width:1000px;height: 700px; margin: 0 auto;}
-#section04 .sec03_img img{width: 100%;}
+#section04 .sec03_img img{width: 100%;}*/
 
+/*
 #section04 .map{position: relative;}
 #section04 .sec02_mapgo{position:absolute;top:0;left:23.7%;
 	max-width:1000px;height: 700px; margin: 0 auto;}
-#section04 .sec02_mapgo img{width: 100%;}
+#section04 .sec02_mapgo img{width: 100%;}*/
 
 @media screen and (max-width: 750px){
 	#section04 .sec03_img{height: 400px;}
@@ -222,11 +223,11 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 #section05 > div{padding-bottom: 50px;}
 #section05 h2{color:#fff;font-size: 3rem;margin-bottom:30px;padding-top:80px}
 #section05 p:nth-child(2){font-size: 1.3rem;margin-bottom:30px}
-#section05 p:nth-child(3){border: 2px solid #fff;width:230px; padding:10px 25px;text-align: left;
-    position: relative;left:43%; transition: 0.5s ease;}
-#section05 p:nth-child(3):hover{border: 2px solid #F9B02B; border-radius:15px;background:#F9B02B}
-#section05 p:nth-child(3) a img{width: 20%;margin-left:50px;}
-#section05  p:nth-child(3) a{width: 100%;}
+#section05 .big_go{border: 2px solid #fff;width:220px; padding:15px 15px;text-align: left;
+    position: relative;left:43%; transition: 0.5s ease;font-weight: 700;display: flex;}
+#section05 .big_go:hover{border: 2px solid #F9B02B; border-radius:15px;background:#F9B02B;color: #0793E6;}
+#section05 .gogo{background: url(../image/go01.png) no-repeat; width: 25px;height: 25px;background-size: cover; position: absolute; right:10%;z-index: 99999;}
+#section05 .big_go:hover .gogo{background: url(../image/gogo.png) no-repeat; width: 25px;height: 25px;background-size: cover; transition: all 1s ease;}
 
 
 @media screen and (max-width: 750px){
@@ -245,6 +246,8 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 #footer  > p img{width: 100%;}
 #footer .frist > ul{width:200px;line-height: 2rem;margin-right:80px;}
 #footer .frist >  ul li{font-size: 0.8rem;}
+#footer .frist >  ul li:nth-child(1):hover{text-decoration: none;}
+
 
 
 #footer .foot_bottom{position: relative;margin: 0;display:flex;justify-content:space-between;}
@@ -254,12 +257,15 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
 #footer .foot_bottom .selcet .link_btn{width: 200px;font-weight: 700;
 	border-top: 2px solid #333;padding:10px 0;position:relative;transition: all ease;z-index: 1;}
 #footer .foot_bottom .small_sel{position: absolute;bottom:-200px;transition: all 1s ease;z-index: 999;width: 150px;}
-#footer .foot_bottom .selcet  .small_sel_box{position: absolute;bottom:50px;width:100%;height:10px;overflow: hidden;background-color: #F9B02B;transition:  all 1s ease;}
+#footer .foot_bottom .selcet  .small_sel_box{position: absolute;bottom:33px;width:100%;height:15px;overflow: hidden;background-color: #fff;transition:  all 1s ease;z-index: 999999;}
 #footer .foot_bottom .selcet  .small_sel_box:hover{height:200px}
 #footer .foot_bottom .selcet  .small_sel_box:hover .on{bottom:0;}
 #footer .foot_bottom .selcet  .small_sel_box ul {display: block;background:#fff;transition: all 1s ease;}
 #footer .foot_bottom .selcet  .small_sel_box ul li:hover{color:#F9B02B;transition: all 0.3s ease}
 #footer .foot_bottom .selcet  .small_sel_box ul li{font-weight: 600; font-size: 0.8rem;padding:5px 0;}
+	/*
+
+
 	/*
 #footer .selcet{
 #footer .foot_bottom .selcet div:nth-child(1){
