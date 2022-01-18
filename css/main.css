@@ -126,7 +126,7 @@ margin-bottom:150px;}
 #section03 .image_mov .back{position: absolute; bottom: 0; left: 0; right: 0; height: 214px; background: white;}
 #section03 .image_mov .menu{ position: absolute; top:0; bottom: 0; left: 0; right: 0; z-index: 2;
 	background: transparent url("../image/log.png") repeat-x left top; background-size: auto 375px;;
-	animation: movement 20s linear infinite;
+	animation: movement 30s linear infinite;
 }
 @media all and (max-width: 750px){
 	#scrtion3{padding-top: 160px;}
@@ -178,7 +178,7 @@ margin-bottom:150px;}
 		position: relative;left:45%;transition: 0.5s ease;}
 	#section03 .big_go02:hover{border: 2px solid #F9B02B; border-radius:15px;background:#F9B02B;color: #fff;font-weight: 700;}
 	#section03 .gogo03{background: url(../image/go.png) no-repeat; width: 25px;height: 25px;background-size: cover; position: absolute; right:10%;z-index: 99999;top:25%}
-	#section03 .big_go02:hover .gogo03{background: url(../image/go.png) no-repeat; width: 25px;height: 25px;background-size: cover; transition: all 1s ease;}
+	#section03 .big_go02:hover .gogo03{background: url(../image/go01.png) no-repeat; width: 25px;height: 25px;background-size: cover; transition: all 1s ease;}
 	
 
 
@@ -187,7 +187,7 @@ margin-bottom:150px;}
 #section03  h2{color : #FD8203;font-size: 1.7rem;margin-bottom:10px;padding-top:70px}
 #section03  h3{font-size: 1rem;margin:0 auto}
 #section03 .image_mov{margin-top:30px}
-#section03 p:last-child{position: relative;left:30%}
+#section03 .big_go02{position: relative;left:30%}
 
 	}
 
@@ -197,7 +197,10 @@ margin-bottom:150px;}
 #section04 h2{color : #FD8203;font-size: 3rem;margin-bottom:25px;}
 #section04 h3{font-size:1.2rem;margin-bottom: 50px;}
 #section04 p:nth-child(3){border: 2px solid #444444;width: 130px; padding:10px 25px;text-align: left;
-position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}/*
+position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}
+#section04 .sec03_img{max-width: 1200px;}
+#section04 .sec03_img img{width: 100%;}
+/*
 #section04 p:nth-child(3):hover{border: 2px solid #F9B02B; border-radius:15px;}
 #section04 p:nth-child(3) a img{width: 20%;margin-left:50px;}
 #section04  p:nth-child(3) a{width:100%;}
@@ -234,7 +237,7 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}/*
 	#section05{background-size: cover;background: url(../image/bule_bar01.png)}
 	#section05 h2{font-size: 1.7rem;padding-top:45px}
 	#section05 p:nth-child(2){font-size: 1rem;}
-	#section05 p:nth-child(3){left: 25%;}
+	#section05 .big_go{left: 25%;}
 	
 		}
 
@@ -280,8 +283,8 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}/*
 
 	@media screen and (max-width: 1250px) and (min-width:750px){
 	footer .frist > ul li:nth-child(1){font-size: 0.7rem;}
-	#footer p:nth-child(1){margin:0 auto}
-	#footer .frist{top:30px;margin:0; padding-right: 60px;}
+	#footer p:nth-child(1){margin:0 auto;position: relative;top:-80px}
+	#footer .frist{margin:0; padding-right: 60px;}
 	#footer .foot_bottom{margin-top:120px}
 	#footer .frist > ul li:nth-child(1):hover{text-decoration: none;}
 	#footer .frist > ul{margin-right: 20px;}
@@ -295,8 +298,8 @@ position: relative;left:45%;margin-bottom:80px;transition: 0.5s ease;}/*
 		#footer .frist > ul li{font-size: 0.65rem;}
 		footer .selcet{top:-20px}
 		#footer p:nth-child(1){margin:0 auto}
-		#footer .frist{top:30px;margin:0;}
-		#footer .foot_bottom{margin-top:120px}
+		#footer .frist{top:30px;padding-right:15%}
+		#footer .foot_bottom{margin-top:120px;}
 		#footer .frist > ul li:nth-child(1):hover{text-decoration: none;}
 		#footer .frist > ul{margin-right:0px;}
 		#footer .foot_bottom .foot_text{top:20px;left:5%}
